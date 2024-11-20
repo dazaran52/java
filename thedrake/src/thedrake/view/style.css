@@ -1,0 +1,28 @@
+.button {
+    -fx-background-color: #8b602e; /* DarkSeaGreen */
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 12px;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+.button:hover {
+    -fx-background-color: #b37b3c; /* MediumSeaGreen */
+}
+
+.button:pressed {
+    -fx-background-color: #8b582e; /* DarkSeaGreen */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.8), 10, 0.5, 0, 1);
+}
+
+#wonLabel {
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #fff500;
+}
+
+#backToMenuButton {
+    -fx-margin-top: 150px;
+}

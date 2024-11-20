@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="800.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thedrake.view.MenuController">
+    <children>
+        <ImageView fitHeight="818.0" fitWidth="907.0" layoutX="-9.0" layoutY="-43.0" opacity="0.95" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@main_menu.jpg" />
+         </image></ImageView>
+        <Button alignment="CENTER" layoutX="300.0" layoutY="248.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#versusModeAction" opacity="0.95" prefHeight="40.0" prefWidth="200.0" text="Hra dvou hráčů">
+            <font>
+                <Font name="Arial Black" size="12.0" />
+            </font></Button>
+        <Button alignment="CENTER" layoutX="310.0" layoutY="318.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" opacity="0.9" prefHeight="40.0" prefWidth="180.0" text="Hra proti počítači">
+            <font>
+                <Font name="Arial Black" size="12.0" />
+            </font></Button>
+        <Button alignment="CENTER" layoutX="320.0" layoutY="391.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" opacity="0.9" prefHeight="40.0" prefWidth="160.0" text="Hra po internetu">
+            <font>
+                <Font name="Arial Black" size="12.0" />
+            </font></Button>
+        <Button fx:id="closeButton" alignment="CENTER" layoutX="360.0" layoutY="471.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#closeApplication" opacity="0.95" prefHeight="40.0" prefWidth="80.0" text="End">
+            <font>
+                <Font name="Arial Black" size="12.0" />
+            </font></Button>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutY="82.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="54.0" prefWidth="800.0" text="  THE DRAKE  " textAlignment="CENTER" underline="true">
+            <font>
+                <Font name="Bowlby One SC Regular" size="33.0" />
+            </font>
+            <textFill>
+                <RadialGradient centerX="0.5022025927573049" centerY="0.5179924242424248" focusAngle="25.56" focusDistance="-0.2568806639505088" radius="0.6192660287979546">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color />
+                            </color>
+                        </Stop>
+                        <Stop offset="0.007680491551459294">
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                        <Stop offset="0.2380952380952381">
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                        <Stop offset="0.5137658040883846">
+                            <color>
+                                <Color red="0.800000011920929" green="0.800000011920929" blue="0.800000011920929" />
+                            </color>
+                        </Stop>
+                        <Stop offset="0.6662235613848517">
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                        <Stop offset="0.8238804206546142">
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                    </stops>
+                </RadialGradient>
+            </textFill>
+            <effect>
+                <DropShadow height="106.42" radius="61.197500000000005" spread="0.62" width="140.37" />
+            </effect></Label>
+    </children>
+</AnchorPane>
